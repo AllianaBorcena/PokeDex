@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="detail.css">
+    <title>Pokédex-Detail</title>
+</head>
+<script src="detail.js" defer></script>
+<body>
+    <main class="detail-main main">
+        <header class="header"></header>
+        <div class="header">
+            <div class="header-wrapper">
+                <div class="header-wrap">
+                    <a href="./index.html" class="back-btn-wrap">
+                        <img src="home.svg" alt="home" class="back-btn" id="back-btn" />
+                    </a>
+                    <div class="name-wrap">
+                        <h1 class="name"></h1>
+                    </div>
+                </div>
+                <div class="pokemon-id-wrap">
+                    <p class="body2-fonts"></p>
+                </div>
+            </div>
+            <div class="pokemon-feature">
+                <a href="#" class="LeftArrow" id="LeftArrow">
+                    <img src="left.svg" alt="" />
+                </a>
+                <div class="pokemonImage">
+                    <img src="" alt="" />
+                </div>
+                <a href="#" class="RightArrow" id="RightArrow">
+                    <img src="right.svg" alt="" />
+                </a>
+            </div>
+            <div class="detail-card-detail-wrapper"> 
+                <div class="pokemonTypeWrapper"> 
+                    <div class="pokemonType" id="pokemonType"></div>
+                </div>
+                <div class="power-wrapper">
+                    <p class="body-font">
+                        <p class="body3-font type grass"></p>
+                        <p class="body3-font type poison"></p>
+                    </p>
+                </div>
+                <p class="body2-fonts about-text">About</p>
+                <div class="pokemon-details-container">
+                    <div class="pokemon-detail-wrapper">
+                        <div class="pokemon-detail-wrap">
+                            <div class="pokemon-detail">
+                                <img src="weight.svg" alt="weight" />
+                                <p class="body3-fonts weight"></p>
+                            </div>
+                            <p class="caption-fonts">Weight</p>
+                        </div>
+                    </div>
+                    <div class="pokemon-detail-wrapper">
+                        <div class="pokemon-detail-wrap">
+                            <div class="pokemon-detail">
+                                <img src="height.svg" alt="height" />
+                                <p class="body3-fonts height"></p>
+                            </div>
+                            <p class="caption-fonts">Height</p>
+                        </div>
+                    </div>
+                    <div class="pokemon-detail-wrapper">
+                        <div class="pokemon-detail-wrap">
+                            <div class="pokemon-detail">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nI3STytnYRQH8M8gCyJFKdGkqYmysFDClFhZzdSYpqaR/ImNLIQUG2Zhxo9QhjV5GV4Dr0lPnW7PvVz51tO9zznf8z3nOedQxgeMYBNnuIhzii5voC9IKWgJHzNfE/qzBP/QiJgCf9CGFkxhP8SO8YCZ4O2Gvy1iCiTVhGt8R3fcW8OW8A0rmKzElC4lIzYwGhnvwnbyGvccPTUCh/F/j87gNEfPCozGm6sCYgrrWIz7XyxjIicd1VQwjEf8zGxJ4Af2cuJxfMcqAgv4WrE1snEWWMOXyFQaTwVN0a8hrOaO3pjxeBDqMI857GCgjvRU40zbeYn2aGxtibO4ybYvIdn+x1NvK6teQtrv7WjS78iYsv2KoIM3nldgGlcYzGyfoqrP7xFI6IhKUkPT2Yp1foFnmrYwZZxszxEAAAAASUVORK5CYII=" alt="weakness" />
+                                <p class="body3-fonts weaknesses"></p>
+                            </div>
+                            <p class="caption-fonts">Weakness</p>
+                        </div>
+                    </div>
+                    <div class="pokemon-detail-wrapper">
+                        <div class="pokemon-detail-wrap">
+                            <div class="pokemon-detail move"></div>
+                            <p class="caption-fonts">Move</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="body3-font pokemon-description"></p>
+                <p class="body2-font about-me">Base Stats</p>
+                <div class="stats-container"> 
+                    <div class="stats-wrapper">
+                        <div class="stats-wrap" data-stat="progress-bar">
+                            <p class="body3-font stats">HP</p>
+                            <p class="body3-font stats"></p>
+                            <progress value="" max="100"></progress>
+                        </div>
+                        <div class="stats-wrap" data-stat="progress-bar">
+                            <p class="body3-font stats">ATK</p>
+                            <p class="body3-font stats"></p>
+                            <progress value="" max="100"></progress>
+                        </div>
+                        <div class="stats-wrap" data-stat="progress-bar">
+                            <p class="body3-font stats">DEF</p>
+                            <p class="body3-font stats"></p>
+                            <progress value="" max="100"></progress>
+                        </div>
+                        <div class="stats-wrap" data-stat="progress-bar">
+                            <p class="body3-font stats">SP.ATK</p>
+                            <p class="body3-font stats"></p>
+                            <progress value="" max="100"></progress>
+                        </div>
+                        <div class="stats-wrap" data-stat="progress-bar">
+                            <p class="body3-font stats">SP.DEF</p>
+                            <p class="body3-font stats"></p>
+                            <progress value="" max="100"></progress>
+                        </div>
+                        <div class="stats-wrap" data-stat="progress-bar">
+                            <p class="body3-font stats">SPEED</p>
+                            <p class="body3-font stats"></p>
+                            <progress value="" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

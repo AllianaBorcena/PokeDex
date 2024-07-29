@@ -1,4 +1,3 @@
-
 # Pokédex Project
 
 ## Overview
@@ -8,7 +7,7 @@ This project is a web-based Pokédex application built with HTML, CSS, JavaScrip
 ## Features
 
 - **Search Functionality**: Users can search for Pokémon by name or ID.
-- **Scrolling Functionality**: Users can scroll down or click the load more to load. 
+- **Load More Functionality**: Initial Load will be 10 pokemons and the load below through onscroll or by button click.
 - **Pokémon Details**: View detailed information about each Pokémon, including stats, abilities, and type.
 - **Responsive Design**: The application is designed to be responsive and work well on different devices.
 - **Navigation**: Easily navigate through different Pokémon using the navigation buttons.
